@@ -1,4 +1,5 @@
 var quoteDiv = document.getElementById('quote')
+var authorDiv = document.getElementById('author')
 
 var request = new XMLHttpRequest()
 
@@ -31,6 +32,6 @@ function renderHTML(data) {
     authorText.innerHTML = '- ' + author
 
     quoteDiv.appendChild(quoteText)
-    quoteDiv.appendChild(authorText)
-    
+    authorDiv.appendChild(authorText)
+
 }
