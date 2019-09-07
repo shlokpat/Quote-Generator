@@ -18,12 +18,14 @@ html, body {
 	background-size: cover;
 	background-position: center;
   align-items: center;
+  background-color: transparent;
 }
 
 .text{
   display: table-cell;
 	vertical-align: middle;
-	text-align: center;
+  text-align: center;
+  color: whitesmoke;
 }
 #quote {
   font-size: 40px;
